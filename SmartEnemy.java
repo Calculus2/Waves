@@ -35,9 +35,11 @@ public class SmartEnemy extends GameObject
 		float diffY = y - player.getY() - 8;
 		float distance = (float) Math.sqrt((x - player.getX()) * (x - player.getX()) + (y - player.getY()) * (y - player.getY()));
 		
+		// Change the speed.
 		velX = (int) ((-1.0 / distance) * diffX);
 		velY = (int) ((-1.0 / distance) * diffY);
 		
+		// Add Object
 		handler.addObject(new Trail(x, y, ID.Trail, Color.green, 16, 16, 0.02f, handler));
 	}
 	
