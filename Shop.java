@@ -25,7 +25,6 @@ public class Shop extends MouseAdapter
 		g.setFont(new Font("arial", 0, 48));
 		g.drawString("SHOP", Game.WIDTH / 2 - 100, 50);
 		
-		
 		// Box 1 - 'Upgrade Health'
 		g.setFont(new Font("arial", 0, 12));
 		g.drawString("Upgrade Health", 110, 120);
