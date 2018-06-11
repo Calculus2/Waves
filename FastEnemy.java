@@ -23,6 +23,7 @@ public class FastEnemy extends GameObject
 	
 	public void tick()
 	{
+		// Move Enemy
 		x += velX;
 		y += velY;
 		
