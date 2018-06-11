@@ -23,6 +23,7 @@ public class BasicEnemy extends GameObject
 	
 	public void tick()
 	{
+		// Move the enemy.
 		x += velX;
 		y += velY;
 		
