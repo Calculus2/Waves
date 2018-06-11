@@ -179,6 +179,7 @@ public class Game extends Canvas implements Runnable
 		g.setColor(Color.black);
 		g.fillRect(0, 0, WIDTH, HEIGHT);
 		
+		// Paused
 		if (paused)
 		{
 			g.setColor(Color.white);
