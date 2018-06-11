@@ -5,6 +5,7 @@ public class Handler
 {
 	LinkedList<GameObject> object = new LinkedList<GameObject>();
 	
+	// Speed
 	public int spd = 5;
 	
 	public void tick()
