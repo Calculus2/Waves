@@ -74,6 +74,7 @@ public class EnemyBoss extends GameObject
 			velX *= -1;
 		}
 		
+		// Make Object
 		handler.addObject(new Trail(x, y, ID.Trail, Color.red, 96, 96, 0.008f, handler));
 	}
 	
