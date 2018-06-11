@@ -43,6 +43,7 @@ public class MenuParticle extends GameObject
 		x += velX;
 		y += velY;
 		
+		// Bounces when it touches the canvas.
 		if (y <= 0 || y >= Game.HEIGHT - 32)
 		{
 			velY *= -1;
@@ -52,6 +53,7 @@ public class MenuParticle extends GameObject
 			velX *= -1;
 		}
 		
+		// Add Object
 		handler.addObject(new Trail(x, y, ID.Trail, col, 16, 16, 0.02f, handler));
 	}
 	
