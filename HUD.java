@@ -35,21 +35,25 @@ public class HUD
 		g.drawString("Space for Shop", 15, 100);
 	}
 	
+	// Set Score
 	public void setScore(int score)
 	{
 		this.score = score;
 	}
 	
+	// Get Score
 	public int getScore()
 	{
 		return score;
 	}
 	
+	// Get Level
 	public int getLevel()
 	{
 		return level;
 	}
 	
+	// Set Level
 	public void setLevel(int level)
 	{
 		this.level = level;
