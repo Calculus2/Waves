@@ -30,21 +30,25 @@ public class KeyInput extends KeyAdapter
 			if (tempObject.getID() == ID.Player)
 			{
 				// KeyEvent for Player
+				// If 'W' is pressed
 				if (key == KeyEvent.VK_W)
 				{
 					tempObject.setVelY(-handler.spd);
 					keyDown[0] = true;
 				}
+				// If 'S' is pressed
 				if (key == KeyEvent.VK_S)
 				{
 					tempObject.setVelY(handler.spd);
 					keyDown[1] = true;
 				}
+				// If 'D' is pressed
 				if (key == KeyEvent.VK_D)
 				{
 					tempObject.setVelX(handler.spd);
 					keyDown[2] = true;
 				}
+				// If 'A' is pressed
 				if (key == KeyEvent.VK_A)
 				{
 					tempObject.setVelX(-handler.spd);
