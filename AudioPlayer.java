@@ -26,6 +26,7 @@ public class AudioPlayer
 		}
 	}
 	
+	// Get Music
 	public static Music getMusic(String key)
 	{
 		return musicMap.get(key);
