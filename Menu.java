@@ -103,10 +103,7 @@ public class Menu extends MouseAdapter
 		}
 	}
 	
-	public void mouseReleased(MouseEvent e)
-	{
-		
-	}
+	public void mouseReleased(MouseEvent e) {}
 	
 	private boolean mouseOver(int mx, int my, int x, int y, int width, int height)
 	{
