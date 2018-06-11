@@ -4,3 +4,5 @@ My friend, Jeungwoo Lee, inspired me and helped with the design of the game but 
 I recently found this in my computer so I will just post it here.
 I have shared this game with some of my friends already but I'm posting just in case that I have to prove that it's mine.
 I will keep editting the codes and comments.
+
+I recently added 'Spawn' class and 'Shop' class.
